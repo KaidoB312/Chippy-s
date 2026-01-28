@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Grandma Gertrude's Cookie Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Banner -->
+        <header class="banner">
+            <h1>Chippy's&nbsp;</h1>
+            <p>Homemade with love since 1985</p>
+        </header>
+        
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Content Area -->
+        <div class="content">
+            <h2>Our Classic Cookie Selection</h2>
+            <p>While we feature seasonal specials throughout the year, these three classic cookies are always available and customer favorites!</p>
+            
+            <div class="cookie-grid">
+                <div class="cookie-item">
+                    <img src="Assets/CCCookie.png" alt="Classic Chocolate Chip Cookie" class="thumbnail">
+                    <h3>Classic Chocolate Chip</h3>
+                    <p>Our signature cookie loaded with semi-sweet chocolate chips and a hint of vanilla. Crispy on the outside, chewy on the inside.</p>
+                </div>
+                
+                <div class="cookie-item">
+                    <img src="Assets/Scookie.png" alt="Traditional Sugar Cookie" class="thumbnail">
+                    <h3>Traditional Sugar Cookie</h3>
+                    <p>A simple yet perfect buttery sugar cookie with a delicate crunch. Sometimes simple is simply the best!</p>
+                </div>
+                
+                <div class="cookie-item">
+                    <img src="Assets/SDCookie.png" alt="Cinnamon Snickerdoodle Cookie" class="thumbnail">
+                    <h3>Cinnamon Snickerdoodle</h3>
+                    <p>A soft, pillowy cookie rolled in cinnamon sugar with a subtle tang from cream of tartar. A true comfort classic.</p>
+                </div>
+            </div>
+            
+            <h3>Pricing</h3>
+            <ul>
+                <li>Single Cookie: $2.50</li>
+                <li>Half Dozen: $12.00</li>
+                <li>Dozen: $22.00</li>
+                <li>Special Orders (2+ dozen): Contact us for pricing</li>
+            </ul>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 Chippy's | All Rights Reserved</p>
+            <p>Contact us: info@chippy's.com | (555) 123-4567</p>
+        </footer>
+    </div>
+    
+    <!-- Modal for enlarged images -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage" alt="Enlarged cookie image">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
